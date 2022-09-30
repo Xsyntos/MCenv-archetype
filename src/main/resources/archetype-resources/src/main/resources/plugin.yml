@@ -1,0 +1,8 @@
+main: ${groupId}.Plugin
+name: ${artifactId}
+version: 1.0
+
+commands:
+    helloWorld:
+        description: Hello, World!
+        usage: /<command>

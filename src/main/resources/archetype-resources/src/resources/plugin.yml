@@ -1,3 +1,0 @@
-main: ${groupId}.Plugin
-name: ${artifactId}
-version: 1.0
