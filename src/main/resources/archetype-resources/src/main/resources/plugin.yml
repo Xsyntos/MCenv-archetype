@@ -1,4 +1,4 @@
-main: ${groupId}.Plugin
+main: ${package}.Plugin
 name: ${artifactId}
 version: 1.0
 

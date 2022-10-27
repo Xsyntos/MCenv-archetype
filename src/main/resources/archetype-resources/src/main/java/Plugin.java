@@ -3,6 +3,8 @@ package ${package};
 import org.bukkit.plugin.java.JavaPlugin;
 
 import ${package}.Initializers.CommandInit;
+import ${package}.Initializers.EventInit;
+
 
 public class Plugin extends JavaPlugin {
     public static JavaPlugin plugin;
@@ -15,6 +17,8 @@ public class Plugin extends JavaPlugin {
         getLogger().info("Config Loaded!");
         CommandInit.init();
         getLogger().info("Registered commands!");
+        EventInit.init();
+        getLogger().info("Registered Events!");
 
     }
     @Override
